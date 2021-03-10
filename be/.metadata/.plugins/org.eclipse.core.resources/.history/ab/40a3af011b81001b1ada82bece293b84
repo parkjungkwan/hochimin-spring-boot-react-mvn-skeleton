@@ -1,0 +1,5 @@
+package com.example.demo.uss.repository;
+@Repository
+public class UserRepositoryImpl implements UserRepository{
+
+}

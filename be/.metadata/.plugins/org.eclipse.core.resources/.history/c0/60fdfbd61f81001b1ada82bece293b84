@@ -1,0 +1,8 @@
+package com.example.demo.uss.domain;
+
+import org.springframework.stereotype.Component;
+
+@Component @Data
+public class User {
+
+}

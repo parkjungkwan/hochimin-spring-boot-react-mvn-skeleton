@@ -1,0 +1,9 @@
+package com.example.demo.uss.domain;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(name="users")
+public class User {
+
+}

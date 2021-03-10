@@ -1,0 +1,18 @@
+package com.example.demo.bbs.domain;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="boards")
+public class Board {
+	
+	@Id
+	@GeneratedValue
+	
+	@Column(name="board_No")
+	private long BoardNo;
+	
+	@Column(name="boardname")
+	private String BoardName;
+
+}

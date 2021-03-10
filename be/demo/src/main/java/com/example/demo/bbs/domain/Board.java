@@ -1,17 +1,17 @@
 package com.example.demo.bbs.domain;
 
-import java.io.Serializable;
+import javax.persistence.*;
 
-import org.springframework.stereotype.Component;
-
-import lombok.Data;
-
-@Component
-@Data
-public class Board implements Serializable{
-	private static final long serialVersionUID = 1L;
-	private long BoardNo;
-	private String BoardName;
+@Entity
+@Table(name="boards")
+public class Board {
 	
+	@Id
+	@GeneratedValue
+	@Column(name="board_no")
+	private long BoardNo;
+	
+	@Column(name="board_name")
+	private String BoardName;
 
 }

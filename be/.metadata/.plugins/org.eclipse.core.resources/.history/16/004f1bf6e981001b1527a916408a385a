@@ -1,0 +1,15 @@
+package com.example.demo.uss.domain;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="users")
+public class User {
+	private long userNo;
+	private String userid;
+	private String passwd;
+	private String username;
+	private String email;
+	
+
+}

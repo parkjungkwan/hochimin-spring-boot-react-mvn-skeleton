@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
+import Counter from './cmm/component/Counter'
+import Login from './sec/component/Login'
+import SignUp from './uss/component/SignUp'
+const App = () => {
+  return(<>
+  <Counter/>
+  <Login/>
+  <SignUp/>
+  </>)
+}
 
-const App = () => 
-   (
-    <>
-      <h1>홈페이지</h1>
-      <button>회원가입</button>
-      <button>로그인</button>
-    </>
-  )
-
-
-export default App;
+export default App

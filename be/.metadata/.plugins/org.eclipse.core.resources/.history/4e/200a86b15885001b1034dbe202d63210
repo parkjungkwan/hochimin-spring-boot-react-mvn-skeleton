@@ -1,0 +1,9 @@
+package com.example.demo.sec.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/auth")
+public class LoginController {
+
+}
